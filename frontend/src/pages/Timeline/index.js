@@ -13,8 +13,8 @@ export default class Timeline extends React.Component {
 	}
 
 	componentDidMount = () => {
-		this.fecthData();
 		this.subscribreToEvent();
+		this.fecthData();
 	}
 
 	handleInputKeyDown = (e) => {
